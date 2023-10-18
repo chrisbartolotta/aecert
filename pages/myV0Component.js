@@ -8,10 +8,10 @@ export default function Component() {
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-4">
           <div className="flex justify-between items-center">
-            <h2 className="text-2xl font-bold">MM East</h2>
+            <h2 className="text-2xl font-bold">MM East: 100</h2>
           </div>
           <div className="flex justify-between items-center">
-            <h2 className="text-2xl font-bold">Scrub Reps</h2>
+            <h2 className="text-2xl font-bold">Scrub Reps: 0</h2>
           </div>
         </div>
         <div className="space-y-4">
