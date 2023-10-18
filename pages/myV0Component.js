@@ -8,36 +8,16 @@ export default function Component() {
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-4">
           <div className="flex justify-between items-center">
-            <img
-              alt="Team 1 logo"
-              height="50"
-              src="/placeholder.svg"
-              style={{
-                aspectRatio: "50/50",
-                objectFit: "cover",
-              }}
-              width="50"
-            />
-            <h2 className="text-2xl font-bold">Team 1</h2>
+            <h2 className="text-2xl font-bold">MM East</h2>
           </div>
           <div className="flex justify-between items-center">
-            <img
-              alt="Team 2 logo"
-              height="50"
-              src="/placeholder.svg"
-              style={{
-                aspectRatio: "50/50",
-                objectFit: "cover",
-              }}
-              width="50"
-            />
-            <h2 className="text-2xl font-bold">Team 2</h2>
+            <h2 className="text-2xl font-bold">Scrub Reps</h2>
           </div>
         </div>
         <div className="space-y-4">
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Inning:</span>
-            <span className="text-lg">5</span>
+            <span className="text-lg">9</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Outs:</span>
@@ -45,7 +25,7 @@ export default function Component() {
           </div>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Bases:</span>
-            <span className="text-lg">1,2</span>
+            <span className="text-lg">0</span>
           </div>
         </div>
       </div>
@@ -54,7 +34,7 @@ export default function Component() {
           <h3 className="text-xl font-bold">Pitcher</h3>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Name:</span>
-            <span className="text-lg">John Doe</span>
+            <span className="text-lg">Christian Elton</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Throws:</span>
@@ -62,14 +42,14 @@ export default function Component() {
           </div>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">ERA:</span>
-            <span className="text-lg">3.56</span>
+            <span className="text-lg">1.99</span>
           </div>
         </div>
         <div className="space-y-4">
           <h3 className="text-xl font-bold">Batter</h3>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Name:</span>
-            <span className="text-lg">Jane Doe</span>
+            <span className="text-lg">Netlify</span>
           </div>
           <div className="flex justify-between items-center">
             <span className="text-lg font-bold">Bats:</span>
